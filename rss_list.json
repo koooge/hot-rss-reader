@@ -1,0 +1,76 @@
+[
+	{
+		"name": "gigazine",
+		// "url": "http://feed.rssad.jp/rss/gigazine/rss_1.0",
+		"url": "http://feed.rssad.jp/rss/gigazine/rss_2.0",
+		// "url": "http://feed.rssad.jp/rss/gigazine/rss_atom",
+		"type": "rss",
+		"evaluation": "twitter",
+		"threshold": 800,
+		"redirect": false
+	},
+	// {
+	// 	"name": "hacker_news",
+	// 	"url": "https://news.ycombinator.com",
+	// 	"type": "hacker_news",
+	// 	"evaluation": "hacker_news",
+	// 	"threshold": 500,
+	// 	"redirect": false	
+	// },
+	{
+		"name": "itpro",
+		"url": "http://itpro.nikkeibp.co.jp/rss/ITpro.rdf",
+		"type": "rss",
+		"evaluation": "twitter",
+		"threshold": 70,
+		"redirect": false
+	},
+	// {
+	// 	"name": "slad",
+	// 	"url": "http://srad.jp/sradjp.rss",
+	// 	"type": "rss",
+	// 	"evaluation": "slad",
+	// 	"threshold": 70,
+	//	"redirect": false
+	// },
+	{
+		"name": "tech_crunch",
+		"url": "http://jp.techcrunch.com/feed",
+		"type": "rss",
+		"evaluation": "twitter",
+		"threshold": 200,
+		"redirect": false
+	},
+	{
+		"name": "wired",
+		"url": "http://wired.jp/feed",
+		"type": "rss",
+		"evaluation": "twitter",
+		"threshold": 300,
+		"redirect": false
+	},
+	{
+		"name": "ggsoku",
+		"url": "http://ggsoku.com/feed",
+		"type": "rss",
+		"evaluation": "twitter",
+		"threshold": 100,
+		"redirect": false
+	},
+	{
+		"name": "impress",
+		"url": "http://rss.rssad.jp/rss/headline/headline.rdf",
+		"type": "rss",
+		"evaluation": "twitter",
+		"threshold": 400,
+		"redirect": true
+	},
+	{
+		"name": "mainichi",
+		"url": "http://rss.rssad.jp/rss/mainichi/flash.rss",
+		"type": "rss",
+		"evaluation": "twitter",
+		"threshold": 120,
+		"redirect": true
+	}
+]
